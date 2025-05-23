@@ -1,0 +1,81 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(241, 222, 203);
+}
+.fill{
+        display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vw;
+}
+header {
+  font-size: larger;
+}
+.navigation {
+  margin-top: 2.1%;
+  padding-right: 10%;
+  font-size: 150%;
+}
+.brand {
+  color: firebrick;
+  font-size: 250%;
+  margin: 20px;
+}
+.button {
+  color: rgb(158, 144, 12);
+  text-decoration: none;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: black;
+}
+a {
+  color: black;
+}
+.flex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.flex-page {
+  display: flex;
+}
+.side_bar{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    padding-left: 0%;
+}
+.bar{
+  background-color: firebrick;
+  color: white;
+  margin: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 5%;
+}
+.testimonial{
+    background-color: white;
+}
+.paragraph{
+    margin: .5%;
+    font-size: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+
+}
