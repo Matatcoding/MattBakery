@@ -3,14 +3,14 @@ body {
   background-color: rgb(241, 222, 203);
 }
 .fill{
-        display: flex
-;
+        display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vw;
 }
 header {
   font-size: larger;
+  flex-shrink: 0;
 }
 .navigation {
   margin-top: 2.1%;
@@ -40,6 +40,9 @@ a {
 }
 .flex-page {
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+
 }
 .side_bar{
     display: flex;
@@ -62,8 +65,9 @@ ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     padding-left: 5%;
+    padding-top: 1%;
+
 }
 .testimonial{
     background-color: white;
@@ -77,5 +81,6 @@ footer{
     color: white;
     text-align: center;
     font-size: 150%;
+    flex-shrink: 0;
 
 }
